@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 341px;
+}
+
+.product-option {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    flex-direction: column;
+    transition: 0.3s linear;
+    font-size: 14px;
+    max-height: 175px;
+}
+
+.product-option-2 {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ff6b82;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    flex-direction: column;
+    transition: 0.3s linear;
+    background: #f8f1f2;
+    font-size: 14px;
+    max-height: 175px;
+}
+
+
+
+.badge {
+    background-color: #ff4d79;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+
+.free-delivery {
+    color: #ff4d79;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: rgb(255, 107, 130, 1);
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 342px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+#size1 {
+    width: 65.98px;
+    height: 25.31px;
+    margin-bottom: 7px;
+}
+
+#color1 {
+    width: 65.98px;
+    height: 25.31px;
+    margin-left: 8px;
+}
+
+.dropdown label {
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-option:hover .bottom-content {
+    display: block;
+    transition: 0.3s linear;
+}
+
+.bottom-content {
+    display: none;
+    margin-left: 2rem;
+    margin-top: 0rem;
+}
+
+.bottom-content-2 {
+    margin-left: 2rem;
+}
+
+.product-option:hover {
+    background: #f8f1f2;
+    border: 2px solid #ff6b82;
+}
+
+p.free-delivery {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+p.free-delivery span {
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+p.charts {
+    margin-left: 36px;
+    font-size: 10px;
+}
+
+p.standard {
+    margin-left: 1.5rem;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bogo-banner {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.bogo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6b82;
+    margin: 0 10px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
+p.copyright {
+    text-align: right;
+    color: rgb(0, 0, 0, 0.4);
+    font-size: 10px;
+    font-style: italic;
+}
+
+label.unit {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+p.main-price {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+p.secondary-price {
+    font-size: 10px;
+}
+
+.badges p {
+    position: relative;
+    top: -2.38rem;
+    left: 10.7rem;
+    color: white;
+    background: #ff4d79;
+    width: 147px;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+}
+.product-option-2 .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3rem;
+}
